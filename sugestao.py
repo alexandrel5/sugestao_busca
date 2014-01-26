@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-def porcentagem(s_recebida, valor=70): #valor da porcentagem a ser filtrada padrao 90% de igualdade
+def porcentagem(s_recebida, valor=70): #valor da porcentagem a ser filtrada padrao 70% de igualdade
 	lista = []
 	tam = len(s_recebida)
 	porcentagem = 100 / tam #tenho que arrumar para nao dar exceção da divisao por zero
